@@ -1,0 +1,89 @@
+fun ConvertBin_HexToDecimal() {
+	val i = 0
+	val j = 0
+	val number : String
+	number = "1010101"
+	var len = 7
+	val base = 2
+	var resInt : Integer
+	if (base == 2) {
+             		do {
+			for (i in 0..len-1 ) {
+				if (number[i] == '1') {
+					val temp = 1
+					for (j in 0..len-1-i ) {
+						temp = temp * base
+					}
+					resInt = resInt + temp
+				}
+			
+			}
+  	     	}
+		while a>3	 		
+	}
+	else {
+		if (base == 8) {
+			for (i in 0..len-1 ) {
+				val intNum = 0;
+				when (number[i]) {
+					in '0' -> 
+						intNum = 0
+					in '1' -> 
+						intNum = 1
+					in '2' -> 
+						intNum = 2
+					in '3' -> 
+						intNum = 3
+					in '4' -> 
+						intNum = 4
+					in '5' -> 
+						intNum = 5
+					in '6' -> 
+						intNum = 6
+					in '7' ->
+						intNum = 7							
+				}
+				val temp = 1
+				for (j in 0..len-i ) {
+					temp = temp * base
+				}
+				resInt = resInt + temp * intNum
+			}
+		}
+	}
+	println("$intNum")
+    val year = 1900
+    var leap = false
+    
+    when (year) {
+        in 1801..1900 -> 
+			println("19 centure")
+        in 1901..2000 -> 
+			println("20 centure")
+        in 2001..2100 -> 
+			println("21 centure")
+	in 2101..2200 -> 
+			println("22 centure")
+        else ->  
+            year = year + 20
+     }
+    val num = reader.nextInt()
+    val a = 2.3
+    val b = 4
+    val c = 5.6
+    val root1: Double
+    val root2: Double
+    val output: String
+    if (num % 2 == 0){
+	var exponent = 4
+	while (exponent != 0) {
+		if (number > 0.0)
+        println("$number is a positive number.")
+    }
+        println("$num is even")
+    }
+    else
+        println("$num is odd")
+    if (a == number)
+	print("$number ")
+}
